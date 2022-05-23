@@ -1,0 +1,44 @@
+{
+  "id": "3413346",
+  "name": "pyg",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "658044",
+      "name": "解锁",
+      "font_class": "jiesuo",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "10593835",
+      "name": "用户-角色-用户名-单人_jurassic",
+      "font_class": "jurassic_user",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "551965",
+      "name": "箭头",
+      "font_class": "arrow-right-copy-copy",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "630095",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    }
+  ]
+}

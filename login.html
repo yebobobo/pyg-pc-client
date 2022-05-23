@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>品优购-欢迎登录</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./icon-font/iconfont.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h2>
+      <a href="./index.html">
+        <img src="./images/logo.png" alt="">
+      </a>
+    </h2>
+  </div>
+  <div class="main">
+    <div class="wrapper">
+      <div class="login">
+        <div class="top">
+          <div class="hd">
+            <h2>扫描登录</h2>
+            <span>|</span>
+            <h2>账户登录</h2>
+          </div>
+          <p>公共场所不建议自动登录，以免账号丢失</p>
+          <div class="box box-user">
+            <i class="iconfont icon-jurassic_user"></i>
+            <input type="text" placeholder="邮箱/用户名/手机号" class="user">
+          </div>
+          <div class="box box-pwd">
+            <i class="iconfont icon-jiesuo"></i>
+            <input type="password" placeholder="请输入密码" class="pwd">
+          </div>
+          <div class="tip">
+            <input type="checkbox" checked>
+            <span>自动登录</span>
+            <a href="javascript:;">忘记密码？</a>
+          </div>
+          <button>登录</button>
+        </div>
+        <div class="bottom">
+          <img src="./images/regetype.png" alt="">
+          <a href="javascript:;">立即注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footers">
+    <a href="javascript:;">关于我们</a>
+    <a href="javascript:;">联系我们</a>
+    <a href="javascript:;">联系客服</a>
+    <a href="javascript:;">商家入驻</a>
+    <a href="javascript:;">营销中心</a>
+    <a href="javascript:;">手机品优购</a>
+    <a href="javascript:;">友情链接</a>
+    <a href="javascript:;">销售联盟 </a>
+    <a href="javascript:;">品优购社区</a>
+    <a href="javascript:;">品优购公益</a>
+    <a href="javascript:;">English Site</a>
+    <a href="javascript:;">Contact U</a>
+
+    <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+    <p>京ICP备08001421号京公网安备110108007702</p>
+  </div>
+
+  <script>
+    let boxUser = document.querySelector('.box-user')
+    let boxPwd = document.querySelector('.box-pwd')
+    let user = document.querySelector('.user')
+    let pwd = document.querySelector('.pwd')
+    user.addEventListener('focus', function() {
+      boxUser.style.border = '1px solid #3aa2e4'
+    })
+    user.addEventListener('blur', function() {
+      boxUser.style.border = '1px solid #bbbaba'
+    })
+    pwd.addEventListener('focus', function() {
+      boxPwd.style.border = '1px solid #3aa2e4'
+    })
+    pwd.addEventListener('blur', function() {
+      boxPwd.style.border = '1px solid #bbbaba'
+    })
+  </script>
+</body>
+</html>

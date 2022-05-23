@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?tomleg');
+  src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.shortCut {
+  width: 1920px;
+  height: 31px;
+  line-height: 31px;
+  background-color: #f1f1f1;
+}
+.shortCut .wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.shortCut .wrapper .left span {
+  color: #666;
+}
+.shortCut .wrapper .left .register {
+  color: #c81623;
+}
+.shortCut .wrapper .right {
+  display: flex;
+}
+.shortCut .wrapper .right a {
+  padding: 0 16px;
+}
+.shortCut .wrapper .right a.myPyg::after,
+.shortCut .wrapper .right a.attentionPyg::after,
+.shortCut .wrapper .right a.client::after,
+.shortCut .wrapper .right a.netWork::after {
+  content: "\e91e";
+  font-family: 'icomoon';
+  margin-left: 6px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 105px;
+  padding-top: 25px;
+}
+.header .search-hotWords .search {
+  width: 538px;
+  height: 36px;
+  border: 2px solid #b1191a;
+}
+.header .search-hotWords .search input {
+  float: left;
+  width: 454px;
+  height: 100%;
+  padding-left: 12px;
+  outline: none;
+  vertical-align: top;
+  font-size: 14px;
+}
+.header .search-hotWords .search button {
+  width: 80px;
+  height: 100%;
+  border: none;
+  background-color: #b1191a;
+  font-size: 16px;
+  color: #fff;
+}
+.header .search-hotWords .hotWords {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.header .car {
+  width: 140px;
+  height: 36px;
+  margin-right: 63px;
+  background-color: #f7f7f7;
+  border: 1px solid #dfdfdf;
+  font-size: 12px;
+  color: #666;
+  line-height: 36px;
+  text-align: center;
+}
+.header .car i {
+  display: inline-block;
+  width: 18px;
+  height: 13px;
+  margin-right: 7px;
+  background: url(../images/icons.png) -415px -90px;
+  vertical-align: middle;
+}
+.nav {
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+.nav .wrapper {
+  display: flex;
+}
+.nav .wrapper .left {
+  width: 209px;
+  height: 45px;
+  margin-right: 40px;
+  background-color: #b1191a;
+  color: #fff;
+  text-align: center;
+}
+.nav .wrapper .right a {
+  font-size: 16px;
+  padding: 0 20px;
+}
+.footer {
+  height: 417px;
+  margin-top: 30px;
+  background-color: #f5f5f5;
+}
+.footer .footer-hd {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 109px;
+  border-bottom: 1px solid #ededed;
+}
+.footer .footer-hd li {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-hd li i {
+  display: inline-block;
+  width: 49px;
+  height: 49px;
+  margin-right: 7px;
+  background-image: url(../images/icons.png);
+}
+.footer .footer-hd li .quality {
+  background-position: -253px -3px;
+}
+.footer .footer-hd li .logistics {
+  background-position: -255px -54px;
+}
+.footer .footer-hd li .sale {
+  background-position: -257px -106px;
+}
+.footer .footer-hd li .service {
+  background-position: -258px -157px;
+}
+.footer .footer-hd li .help {
+  background-position: -258px -209px;
+}
+.footer .footer-hd li .txt {
+  line-height: 20px;
+}
+.footer .footer-hd li .txt h5 {
+  font-size: 14px;
+}
+.footer .footer-hd li .txt p {
+  font-size: 12px;
+  color: #666;
+}
+.footer .footer-md {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 188px;
+  border-bottom: 1px solid #ededed;
+}
+.footer .footer-md dl dt {
+  margin-bottom: 10px;
+}
+.footer .footer-md dl dd {
+  line-height: 20px;
+}
+.footer .footer-md dl:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-fd {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 28px;
+  color: #666;
+  font-size: 12px;
+}
+.footer .footer-fd a {
+  padding: 0 12px;
+  border-right: 1px solid #999;
+}
+.footer .footer-fd a:last-of-type {
+  border-right: none;
+}
